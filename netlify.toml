@@ -6,9 +6,15 @@
 [[builds]]
   base = "front-end-projects/quotegenerator"  # Path to your React project2
   publish = "build"  # Path to the build directory for project2
-  command = "npm run build"  # Command to build project2
+  command = "npm run build"  # Command to build projects
+
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/clock/*"
+  to = "/clock/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/quotegenerator/*"
+  to = "/quotegenerator/index.html"
   status = 200

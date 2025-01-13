@@ -1,4 +1,10 @@
-[build]
+[[builds]]
   base = "front-end-projects/clock"  # Base Directory where your React app is
   publish = "build"  # Publish Directory after build is created
   command = "npm run build"
+
+[[builds]]
+  base = "front-end-projects/quotegenerator"  # Path to your React project2
+  publish = "build"  # Path to the build directory for project2
+  command = "npm run build"  # Command to build project2
+  

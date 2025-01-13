@@ -1,4 +1,4 @@
 [build]
   base = "front-end/clock"  # Base Directory where your React app is
-  publish = "/build"  # Publish Directory after build is created
+  publish = "build"  # Publish Directory after build is created
   command = "npm run build"

@@ -7,4 +7,8 @@
   base = "front-end-projects/quotegenerator"  # Path to your React project2
   publish = "build"  # Path to the build directory for project2
   command = "npm run build"  # Command to build project2
-  
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
